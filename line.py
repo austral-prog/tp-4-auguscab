@@ -8,14 +8,14 @@ def line():
 	y1=a*x1+b
 	y2=a*x2+b
 	print(f"""El coeficiente A de su ecuación de la recta es: {a}
-		El coeficiente B de su ecuación de la recta es: {b}
-		El coeficiente X1 de su ecuación de la recta es: {x1}
-		El coeficiente X2 de su ecuación de la recta es: {x2}""")
+El coeficiente B de su ecuación de la recta es: {b}
+El coeficiente X1 de su ecuación de la recta es: {x1}
+El coeficiente X2 de su ecuación de la recta es: {x2}""")
 	print(f"""\nPara la siguiente ecuación:
-		\tY={a}X + {b}""")
-	print(f"""Dados los siguientes puntos:
-		\tP1 ({x1}, {y1})
-		\tP2({x2}, {y2})""")
+	Y = {a}X + {b}""")
+	print(f"""\nDados los siguientes puntos:
+	P1 ({x1}, {y1})
+	P2 ({x2}, {y2})""")
 
 	d= math.sqrt((x2-x1)**2 + (y2-y1)**2)
 
